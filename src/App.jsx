@@ -2,6 +2,7 @@
 import Jungle from './JSX/Jungle.jsx'
 import Movie from './Component/Movie.jsx';
 import Colorize from './ReactHook/useState/Colorize.jsx';
+import RandomQuote from './ReactHook/useEffect/RandomGreet.jsx';
 
 function App() {
  
@@ -11,6 +12,7 @@ function App() {
       <Jungle />
       <Movie />
       <Colorize />
+      <RandomQuote />
     </>
   )
 }
